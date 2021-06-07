@@ -28,3 +28,7 @@ Our best model can be downloaded here" https://drive.google.com/file/d/1hJzAiFG8
 #To test ETIS_LARIB Data set, use below command;(please also change pad = 0.5 to pad = 0.0 https://github.com/WongKinYiu/ScaledYOLOv4/blob/8579a59652930be203a266122b6db695ddeacc1b/test.py#L77 )
 
 python test.py --weights weights/model1.pt --img-size 544 --conf-thres 0.291
+
+
+#To test CVC-ColonDB Data set, use below command (do not change pad, so pad is default, pad = 0.5)
+python test.py --weights weights/model1.pt --img-size 384 --conf-thres 0.25
