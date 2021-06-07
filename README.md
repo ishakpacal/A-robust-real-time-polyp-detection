@@ -38,4 +38,6 @@ python test.py --weights weights/model1.pt --img-size 384 --conf-thres 0.25 --io
 
 ![result2](https://user-images.githubusercontent.com/58702074/120996995-81fca100-c78f-11eb-822c-db7e2263a41b.PNG)
 
+# Citation
+Pacal, Ishak & Karaboga, Dervis. (2021). A Robust Real-Time Deep Learning Based Automatic Polyp Detection System. Computers in Biology and Medicine. 134. 104519. 10.1016/j.compbiomed.2021.104519. 
 
